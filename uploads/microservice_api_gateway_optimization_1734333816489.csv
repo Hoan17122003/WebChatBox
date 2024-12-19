@@ -1,0 +1,24 @@
+Label,Relation,Target,Description
+Overview,Has_Subtopic,Problems with API Gateway under heavy load,Describes issues arising from heavy load on API Gateway.
+Overview,Has_Subtopic,Optimization Strategies for API Gateway,Describes strategies to optimize API Gateway performance.
+Overview,Has_Subtopic,Conclusion,Summarizes the discussion and key takeaways.
+Problems with API Gateway under heavy load,Has_Subproblem,Resource Exhaustion,API Gateway runs out of CPU or memory.
+Problems with API Gateway under heavy load,Has_Subproblem,High Latency,Increased response time due to message brokers and microservice interaction.
+Problems with API Gateway under heavy load,Has_Subproblem,Single Point of Failure,System failure if API Gateway fails.
+Optimization Strategies for API Gateway,Has_Strategy,Load Balancing,Distributing traffic across multiple API Gateway instances.
+Optimization Strategies for API Gateway,Has_Strategy,API Gateway Scaling,Deploying multiple instances and auto-scaling.
+Optimization Strategies for API Gateway,Has_Strategy,Circuit Breaker Pattern,Protecting against service failures.
+Optimization Strategies for API Gateway,Has_Strategy,Caching,Storing frequently requested data to reduce processing.
+Optimization Strategies for API Gateway,Has_Strategy,Event-Driven Architecture,Decoupling services using message brokers.
+Optimization Strategies for API Gateway,Has_Strategy,Microservice Communication Optimization,Optimizing service-to-service communication.
+Load Balancing,Uses_Tool,NGINX,Load balancing tool.
+Load Balancing,Uses_Tool,HAProxy,Load balancing tool.
+Load Balancing,Uses_Tool,AWS ELB,Cloud-based load balancer.
+API Gateway Scaling,Uses_Technology,Docker,Containerization technology.
+API Gateway Scaling,Uses_Technology,Kubernetes,Orchestration platform.
+API Gateway Scaling,Uses_Technology,Kubernetes Horizontal Pod Autoscaler,Auto-scaling mechanism.
+Caching,Uses_Technology,Redis,Caching technology.
+Event-Driven Architecture,Uses_Technology,Message Brokers,For asynchronous communication.
+Microservice Communication Optimization,Uses_Protocol,HTTP,Direct communication protocol.
+Microservice Communication Optimization,Uses_Protocol,gRPC,Direct communication protocol.
+Conclusion,Summarizes,Overview,Summarizes the potential bottleneck of API Gateway and optimization strategies.

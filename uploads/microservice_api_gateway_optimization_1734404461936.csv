@@ -1,0 +1,28 @@
+Label,Relation,Target,Description
+Overview,Has_Subtopic,Problems with API Gateway under heavy load,Discusses issues arising from heavy load on API Gateway.
+Overview,Has_Subtopic,Optimization Strategies for API Gateway,Presents methods to optimize API Gateway performance.
+Overview,Has_Conclusion,Conclusion,Summarizes findings and recommendations.
+Problems with API Gateway under heavy load,Has_Subproblem,Resource Exhaustion,API Gateway runs out of resources due to high request volume.
+Problems with API Gateway under heavy load,Has_Subproblem,High Latency,Increased response time due to message broker and microservice interactions.
+Problems with API Gateway under heavy load,Has_Subproblem,Single Point of Failure,API Gateway failure leads to system failure.
+Optimization Strategies for API Gateway,Has_Strategy,Load Balancing,Distributes traffic across multiple API Gateway instances using tools like NGINX or HAProxy.
+Optimization Strategies for API Gateway,Has_Strategy,API Gateway Scaling,Uses containerization and orchestration to scale API Gateway instances based on load.
+Optimization Strategies for API Gateway,Has_Strategy,Circuit Breaker Pattern,Protects against service failures by interrupting unresponsive services.
+Optimization Strategies for API Gateway,Has_Strategy,Caching,Stores frequently requested data to reduce processing time using technologies like Redis.
+Optimization Strategies for API Gateway,Has_Strategy,Event-Driven Architecture,Decouples services using message brokers for asynchronous processing.
+Optimization Strategies for API Gateway,Has_Strategy,Microservice Communication Optimization,Optimizes service-to-service communication using direct calls or batch requests.
+Conclusion,Summarizes,Overview,Summarizes the potential bottleneck of API Gateway and the effectiveness of optimization strategies.
+Resource Exhaustion,Uses_Resource,CPU,API Gateway consumes excessive CPU resources.
+Resource Exhaustion,Uses_Resource,Memory,API Gateway consumes excessive memory resources.
+High Latency,Involves,Message Broker,Requests are routed through a message broker, increasing latency.
+High Latency,Involves,Microservices,Multiple microservices interact, adding to response time.
+Load Balancing,Uses_Tool,NGINX,A load balancing tool.
+Load Balancing,Uses_Tool,HAProxy,A load balancing tool.
+Load Balancing,Uses_Tool,AWS ELB,A cloud-based load balancer.
+API Gateway Scaling,Uses_Technology,Docker,For containerization of API Gateway.
+API Gateway Scaling,Uses_Technology,Kubernetes,For orchestration and autoscaling.
+API Gateway Scaling,Uses_Mechanism,Horizontal Pod Autoscaler,Kubernetes feature for automatic scaling.
+Caching,Uses_Technology,Redis,A caching technology.
+Event-Driven Architecture,Uses,Message Broker,For decoupling services and asynchronous processing.
+Microservice Communication Optimization,Uses,HTTP,For direct service-to-service communication.
+Microservice Communication Optimization,Uses,gRPC,For direct service-to-service communication.

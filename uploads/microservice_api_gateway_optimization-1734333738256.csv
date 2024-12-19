@@ -1,0 +1,38 @@
+Label,Relation,Target
+Overview,Describes,Microservice Architecture Optimization with API Gateway
+API Gateway,Is a,Bottleneck under heavy load
+Multiple Users,Causes,API Gateway Bottleneck
+Simultaneous Access,Causes,API Gateway Bottleneck
+Resource Exhaustion,Problem of,API Gateway under heavy load
+High Latency,Problem of,API Gateway under heavy load
+Single Point of Failure,Problem of,API Gateway under heavy load
+CPU Exhaustion,Symptom of,Resource Exhaustion
+Memory Exhaustion,Symptom of,Resource Exhaustion
+Message Broker,Contributes to,High Latency
+Microservice Interaction,Contributes to,High Latency
+Load Balancing,Solution for,API Gateway Bottleneck
+Load Balancing,Uses,NGINX, HAProxy, AWS ELB
+Round-Robin,Type of,Load Balancing
+Least Connections,Type of,Load Balancing
+API Gateway Scaling,Solution for,API Gateway Bottleneck
+API Gateway Scaling,Uses,Docker, Kubernetes, Horizontal Pod Autoscaler
+Containerization,Enables,API Gateway Scaling
+Orchestration,Enables,API Gateway Scaling
+Horizontal Pod Autoscaler,Enables,API Gateway Scaling
+Circuit Breaker Pattern,Solution for,API Gateway Bottleneck, Service Failures
+Circuit Breaker Pattern,Prevents,System Overload
+Caching,Solution for,API Gateway Bottleneck
+Caching,Uses,Redis
+Event-Driven Architecture,Solution for,API Gateway Bottleneck
+Event-Driven Architecture,Uses,Message Brokers
+Asynchronous Processing,Characteristic of,Event-Driven Architecture
+Microservice Communication Optimization,Solution for,API Gateway Bottleneck
+Direct HTTP Calls,Method of,Microservice Communication Optimization
+gRPC Calls,Method of,Microservice Communication Optimization
+Batch Requests,Method of,Microservice Communication Optimization
+Load Balancing,Improves,Performance
+Auto-scaling,Improves,Performance
+Circuit Breakers,Improves,Resilience
+Caching,Improves,Performance
+Event-Driven Communication,Improves,Scalability
+Microservice Interaction Optimization,Improves,Efficiency

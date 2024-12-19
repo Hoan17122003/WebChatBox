@@ -1,0 +1,37 @@
+Label,Relation,Target
+Overview,Has_subtopic,Problems with API Gateway under heavy load
+Overview,Has_subtopic,Optimization Strategies for API Gateway
+Overview,Has_conclusion,Conclusion
+Problems with API Gateway under heavy load,Has_problem,Resource Exhaustion
+Problems with API Gateway under heavy load,Has_problem,High Latency
+Problems with API Gateway under heavy load,Has_problem,Single Point of Failure
+Optimization Strategies for API Gateway,Has_strategy,Load Balancing
+Optimization Strategies for API Gateway,Has_strategy,API Gateway Scaling
+Optimization Strategies for API Gateway,Has_strategy,Circuit Breaker Pattern
+Optimization Strategies for API Gateway,Has_strategy,Caching
+Optimization Strategies for API Gateway,Has_strategy,Event-Driven Architecture
+Optimization Strategies for API Gateway,Has_strategy,Microservice Communication Optimization
+Load Balancing,Uses_tool,NGINX
+Load Balancing,Uses_tool,HAProxy
+Load Balancing,Uses_tool,AWS ELB
+API Gateway Scaling,Uses_technology,Docker
+API Gateway Scaling,Uses_technology,Kubernetes
+API Gateway Scaling,Uses_feature,Horizontal Pod Autoscaler
+Caching,Uses_technology,Redis
+Event-Driven Architecture,Uses_technology,Message brokers
+Microservice Communication Optimization,Uses_protocol,HTTP
+Microservice Communication Optimization,Uses_protocol,gRPC
+Resource Exhaustion,Causes,CPU or memory depletion
+Resource Exhaustion,Caused_by,Large number of requests
+High Latency,Caused_by,Message broker routing
+High Latency,Caused_by,Multiple microservice interactions
+Single Point of Failure,Caused_by,API Gateway as single entry point
+Load Balancing,Improves,Performance
+API Gateway Scaling,Improves,Scalability
+Circuit Breaker Pattern,Improves,System resilience
+Caching,Improves,Performance
+Event-Driven Architecture,Improves,Scalability
+Microservice Communication Optimization,Improves,Efficiency
+Conclusion,Summarizes,Overview
+Conclusion,Summarizes,Problems with API Gateway under heavy load
+Conclusion,Summarizes,Optimization Strategies for API Gateway

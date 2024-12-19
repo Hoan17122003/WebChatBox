@@ -1,0 +1,15 @@
+Nhãn,Quan hệ,Mô tả
+Yêu cầu 1,Phụ thuộc vào,Xây dựng ứng dụng NestJS microservice với RabbitMQ, TypeORM, và MySQL
+Yêu cầu 1,Sử dụng công nghệ,NestJS,RabbitMQ,TypeORM,MySQL,Docker,Kubernetes
+Yêu cầu 1,Kết quả,Ứng dụng microservice được xây dựng và triển khai
+Yêu cầu 2,Phụ thuộc vào,Thêm API Gateway để quản lý việc proxy các yêu cầu đến các service khác
+Yêu cầu 2,Kết quả,API Gateway được tích hợp vào hệ thống microservice
+Yêu cầu 3,Phụ thuộc vào,Xử lý tình huống người dùng mượn sách trả phí trước
+Yêu cầu 3,Liên quan đến,API Gateway,Payment Service, Library Service
+Yêu cầu 3,Kết quả,Mô tả chi tiết code flow hoạt động giữa các service
+Yêu cầu 4,Phụ thuộc vào,So sánh kiến trúc microservice và hệ phân tán
+Yêu cầu 4,Kết quả,Phân tích sự tương đồng và khác biệt giữa microservice và hệ phân tán
+Yêu cầu 5,Phụ thuộc vào,API Gateway bị quá tải khi nhiều người dùng truy cập và cách tối ưu hóa
+Yêu cầu 5,Giải pháp,Load Balancing,Caching,Circuit Breaker,Event-driven Architecture
+Yêu cầu 5,Kết quả,Các phương pháp tối ưu hóa để giảm tải và cải thiện hiệu suất API Gateway
+Yêu cầu 6,Kết quả,File PDF tổng hợp câu hỏi và câu trả lời về kiến trúc microservice

@@ -1,0 +1,44 @@
+Label,Relationship,Description
+Overview,Has_Subtopic,Problems with API Gateway under heavy load
+Overview,Has_Subtopic,Optimization Strategies for API Gateway
+Overview,Has_Subtopic,Conclusion
+Problems with API Gateway under heavy load,Is_a_type_of,Performance Issue
+Problems with API Gateway under heavy load,Has_Subproblem,Resource Exhaustion
+Problems with API Gateway under heavy load,Has_Subproblem,High Latency
+Problems with API Gateway under heavy load,Has_Subproblem,Single Point of Failure
+Resource Exhaustion,Is_caused_by,High request volume
+Resource Exhaustion,Leads_to,CPU or memory depletion
+High Latency,Is_caused_by,Message broker routing
+High Latency,Is_caused_by,Multiple microservice interactions
+High Latency,Leads_to,Slower client experience
+Single Point of Failure,Is_due_to,API Gateway as single entry point
+Single Point of Failure,Leads_to,System unavailability
+Optimization Strategies for API Gateway,Is_a_type_of,Performance Improvement
+Optimization Strategies for API Gateway,Has_Strategy,Load Balancing
+Optimization Strategies for API Gateway,Has_Strategy,API Gateway Scaling
+Optimization Strategies for API Gateway,Has_Strategy,Circuit Breaker Pattern
+Optimization Strategies for API Gateway,Has_Strategy,Caching
+Optimization Strategies for API Gateway,Has_Strategy,Event-Driven Architecture
+Optimization Strategies for API Gateway,Has_Strategy,Microservice Communication Optimization
+Load Balancing,Uses_tool,NGINX
+Load Balancing,Uses_tool,HAProxy
+Load Balancing,Uses_tool,AWS ELB
+API Gateway Scaling,Uses_technology,Docker
+API Gateway Scaling,Uses_technology,Kubernetes
+API Gateway Scaling,Uses_feature,Horizontal Pod Autoscaler
+Circuit Breaker Pattern,Prevents,System overload
+Circuit Breaker Pattern,Handles,Unresponsive services
+Caching,Uses_technology,Redis
+Caching,Reduces,Request processing
+Event-Driven Architecture,Uses,Message brokers
+Event-Driven Architecture,Improves,Asynchronous processing
+Event-Driven Architecture,Reduces,API Gateway load
+Microservice Communication Optimization,Uses,Direct HTTP calls
+Microservice Communication Optimization,Uses,gRPC calls
+Microservice Communication Optimization,Reduces,Overhead
+Microservice Communication Optimization,Suggests,Batch requests
+Conclusion,Summarizes,Overview and Optimization of Microservice Architecture with API Gateway
+Conclusion,Highlights,Performance enhancement
+Conclusion,Highlights,Resilience improvement
+Conclusion,Highlights,Efficiency improvement
+Conclusion,Highlights,Scalability improvement

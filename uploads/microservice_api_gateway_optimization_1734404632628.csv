@@ -1,0 +1,34 @@
+Label,Relationship,Description
+Overview,is_part_of,Microservice Architecture Optimization
+API Gateway Bottleneck,is_a,Problem under heavy load
+Resource Exhaustion,is_a,Problem of API Gateway
+High Latency,is_a,Problem of API Gateway
+Single Point of Failure,is_a,Problem of API Gateway
+Load Balancing,is_a,Optimization Strategy
+API Gateway Scaling,is_a,Optimization Strategy
+Circuit Breaker Pattern,is_a,Optimization Strategy
+Caching,is_a,Optimization Strategy
+Event-Driven Architecture,is_a,Optimization Strategy
+Microservice Communication Optimization,is_a,Optimization Strategy
+Load Balancing,uses_tools,NGINX, HAProxy, AWS ELB
+API Gateway Scaling,uses_technologies,Docker, Kubernetes, Horizontal Pod Autoscaler
+Caching,uses_technologies,Redis
+Event-Driven Architecture,uses_technologies,Message Brokers
+Microservice Communication Optimization,uses_protocols,HTTP, gRPC
+Resource Exhaustion,caused_by,High number of requests
+High Latency,caused_by,Message broker, Multiple microservice interactions
+Single Point of Failure,caused_by,API Gateway as single entry point
+High Latency,results_in,Slower client experience
+Single Point of Failure,results_in,System unavailability
+Load Balancing,improves,Performance, Scalability
+API Gateway Scaling,improves,Scalability, Resilience
+Circuit Breaker Pattern,improves,Resilience, Availability
+Caching,improves,Performance, Response time
+Event-Driven Architecture,improves,Scalability, Decoupling
+Microservice Communication Optimization,improves,Performance, Efficiency
+Load Balancing,mitigates,Resource Exhaustion
+API Gateway Scaling,mitigates,Resource Exhaustion, Single Point of Failure
+Circuit Breaker Pattern,mitigates,Single Point of Failure, High Latency
+Caching,mitigates,High Latency, Resource Exhaustion
+Event-Driven Architecture,mitigates,High Latency, Resource Exhaustion
+Microservice Communication Optimization,mitigates,High Latency
